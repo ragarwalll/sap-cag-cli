@@ -1,6 +1,6 @@
 {
     "name": "@ragarwal06/create-sap-fs-app",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A CLI for creating SAP full stack applications",
     "license": "ISC",
     "repository": {

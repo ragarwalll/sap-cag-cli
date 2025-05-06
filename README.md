@@ -57,8 +57,7 @@ The generator creates a new directory containing:
 
 - `package.json` or `pom.xml`  
 - Scaffolded UI5/React frontend code  
-- Scaffolded Node.js/Spring Boot backend code  
-- `.vscode/launch.json` & `.vscode/tasks.json`  
+- Scaffolded Node.js/Spring Boot backend code
 - Deployment descriptors (`mta.yaml`, `xs-app.json`, etc.)  
 
 
