@@ -120,7 +120,7 @@ export const promptPackageList = async <
         default: defaultValue,
     });
 
-    if (list === 'skip') throw new Error();
+    if (list === 'skip') return {} as T;
     const packageDetails = choices[list] as PackageMetadata;
 
     // ask metadata

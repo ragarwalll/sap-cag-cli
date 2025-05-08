@@ -95,14 +95,26 @@ export const renderGenerator = async () => {
                     availableFlags.name as UserInputMetadataInput,
                 );
 
-            // // get frontend packages
+            // get frontend packages
             const frontendPackages = await promptFrontendPackages();
 
-            // // get backend packages
+            // get backend packages
             const backendPackages = await promptBackendPackages();
 
             // set packages
             userOptions.packages = { ...frontendPackages, ...backendPackages };
+
+            // if user has selected no packages
+            // return error
+            if (
+                Object.keys(userOptions.packages).length === 0 &&
+                !userOptions.flags.default
+            ) {
+                logger.error(
+                    `Umm 😶! You need to select at least one package to generate the application`,
+                );
+                process.exit(1);
+            }
 
             // set xsuaa
             userOptions.enableXSUAA = await promptConfirm(

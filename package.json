@@ -1,6 +1,6 @@
 {
     "name": "@ragarwal06/create-sap-fs-app",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A CLI for creating SAP full stack applications",
     "license": "ISC",
     "repository": {
@@ -54,8 +54,8 @@
         "typescript": "^5.8.2"
     },
     "dependencies": {
-        "@ragarwal06/sap-cloud-application-generator": "^1.1.8",
-        "@ragarwal06/sap-cloud-application-generator-types": "^0.1.3",
+        "@ragarwal06/sap-cloud-application-generator": "^1.2.0",
+        "@ragarwal06/sap-cloud-application-generator-types": "^0.1.4",
         "@typescript-eslint/eslint-plugin": "^8.26.1",
         "@typescript-eslint/parser": "^8.26.1",
         "chalk": "^5.4.1",
