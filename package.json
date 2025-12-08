@@ -67,7 +67,7 @@
         "execa": "^9.5.2",
         "fs-extra": "^11.3.0",
         "gradient-string": "^3.0.0",
-        "inquirer": "^12.5.0",
+        "inquirer": "^13.0.2",
         "ora": "^8.2.0",
         "sort-package-json": "^3.0.0"
     },
